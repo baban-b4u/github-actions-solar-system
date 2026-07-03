@@ -38,6 +38,8 @@ jobs:
             path: test-results.xml
 
     code-coverage:
+      runs-on: ubuntu-latest
+      steps:
       - name: Checkout Reposirtory
         uses: actions/checkout@v4
       
