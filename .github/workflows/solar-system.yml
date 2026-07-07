@@ -65,7 +65,7 @@ jobs:
     dev-deploy:
       runs-on: ubuntu-latest
       needs: docker
-      environments: development
+      environment: development
       steps:
       - name: Install Kubernetes cluste
         uses: helm/kind-action@v1
